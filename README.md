@@ -2,7 +2,9 @@
 
 python3 + scrapy + Mongodb
 
-[参考了该博客](https://segmentfault.com/a/1190000008334147), 他描述了如何爬取“豆瓣图书信息”，"微博数据"
+* [参考了该博客](https://segmentfault.com/a/1190000008334147), 他描述了如何爬取“豆瓣图书信息”，"微博数据"
+* [利用爬虫技术能做到哪些很酷很有趣很有用的事情？](https://www.zhihu.com/question/27621722)
+* [有哪些网站用爬虫爬取能得到很有价值的数据？](https://www.zhihu.com/question/36132174/answer/70798699)
 
 ## 目标
 
