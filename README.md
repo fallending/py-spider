@@ -22,13 +22,11 @@ python3 + scrapy + Mongodb
 - Givenchy紀梵希[officialgivenchy,     1912136333, https://weibo.com/u/1912136333]
 ```
 
-## 工具
+## 工具 (MySQL, Redis 本项目未使用到)
 
 * python-3.5
 	- [Python yield 使用浅析](https://www.ibm.com/developerworks/cn/opensource/os-cn-python-yield/)
 * python 环境管理工具 conda
-* [mysql](https://dev.mysql.com/downloads/file/?id=479845)
-	> root, 123!@#qweQWE
 * [mongo](https://blog.csdn.net/tymatlab/article/details/78532176), [mac系统下安装、启动、停止mongodb](https://www.cnblogs.com/haonanZhang/p/8213947.html), [mongoDB状态页面](https://www.cnblogs.com/ee900222/p/mongodb_1.html), [配置文件文档](https://docs.mongodb.com/manual/reference/configuration-options/), [配置文件范例](https://www.jianshu.com/p/f179ce608391), [MongoDB客户端管理工具 RoboMongo](https://blog.csdn.net/chszs/article/details/51348248), [NotMasterError, 建议命令行操作](https://www.jianshu.com/p/3a2acd1328a9)
   ```
 	brew services start mongodb  ---启动
@@ -48,3 +46,5 @@ python3 + scrapy + Mongodb
 
 * [redis]()
 	- 分布式爬取: [scrapy-redis](https://github.com/rolando/scrapy-redis)
+* [mysql](https://dev.mysql.com/downloads/file/?id=479845)
+	- root, 123!@#qweQWE
