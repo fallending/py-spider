@@ -50,3 +50,7 @@ python3 + scrapy + Mongodb
 	- 分布式爬取: [scrapy-redis](https://github.com/rolando/scrapy-redis)
 * [mysql](https://dev.mysql.com/downloads/file/?id=479845)
 	- root, 123!@#qweQWE
+
+## 样例
+
+![sample](res/user-table.png)
