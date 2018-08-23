@@ -9,17 +9,17 @@ python3 + scrapy + Mongodb
 爬取品牌账号的微博
 
 ```
-- 路易威登 [louisvuitton, 							1836003984, https://weibo.com/u/1836003984]
-- Coach蔻驰[coachchina, 								1916986680, https://weibo.com/u/1916986680]
-- 香奈儿CHANEL[chanel, 								1892475055, https://weibo.com/u/1892475055]
-- Balenciaga[officialbalenciaga, 			2551034310, https://weibo.com/u/2551034310]
-- Burberry[burberry, 									1924007153]
-- DolceGabbana[dolcegabbanaofficial, 	2019842447, https://weibo.com/u/2019842447]
-- Prada普拉达[pradaofficial, 					5813211408, https://weibo.com/u/5813211408]
-- GUCCI[gucci, 												1934738161, https://weibo.com/u/1934738161]
-- FENDI[fendi, 												2826120835, https://weibo.com/u/2826120835]
+- 路易威登 [louisvuitton,               1836003984, https://weibo.com/u/1836003984]
+- Coach蔻驰[coachchina,                1916986680, https://weibo.com/u/1916986680]
+- 香奈儿CHANEL[chanel,                 1892475055, https://weibo.com/u/1892475055]
+- Balenciaga[officialbalenciaga,      2551034310, https://weibo.com/u/2551034310]
+- Burberry[burberry,                  1924007153]
+- DolceGabbana[dolcegabbanaofficial,  2019842447, https://weibo.com/u/2019842447]
+- Prada普拉达[pradaofficial,           5813211408, https://weibo.com/u/5813211408]
+- GUCCI[gucci,                        1934738161, https://weibo.com/u/1934738161]
+- FENDI[fendi,                        2826120835, https://weibo.com/u/2826120835]
 - Valentino官方微博[valentinoofficial, 2082922603, https://weibo.com/u/2082922603]
-- Givenchy紀梵希[officialgivenchy, 		1912136333, https://weibo.com/u/1912136333]
+- Givenchy紀梵希[officialgivenchy,     1912136333, https://weibo.com/u/1912136333]
 ```
 
 ## 工具
