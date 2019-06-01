@@ -30,7 +30,7 @@ python3 + scrapy + Mongodb
 * python-3.5
 	- [Python yield 使用浅析](https://www.ibm.com/developerworks/cn/opensource/os-cn-python-yield/)
 * python 环境管理工具 conda
-* [mongo](https://blog.csdn.net/tymatlab/article/details/78532176), [mac系统下安装、启动、停止mongodb](https://www.cnblogs.com/haonanZhang/p/8213947.html), [mongoDB状态页面](https://www.cnblogs.com/ee900222/p/mongodb_1.html), [配置文件文档](https://docs.mongodb.com/manual/reference/configuration-options/), [配置文件范例](https://www.jianshu.com/p/f179ce608391), [MongoDB客户端管理工具 RoboMongo](https://blog.csdn.net/chszs/article/details/51348248), [NotMasterError, 建议命令行操作](https://www.jianshu.com/p/3a2acd1328a9)
+* [mongo](https://blog.csdn.net/tymatlab/article/details/78532176), [mac系统下安装、启动、停止mongodb](https://www.cnblogs.com/haonanZhang/p/8213947.html), [mongoDB状态页面](https://www.cnblogs.com/ee900222/p/mongodb_1.html), [配置文件文档](https://docs.mongodb.com/manual/reference/configuration-options/), [MongoDB客户端管理工具 RoboMongo](https://blog.csdn.net/chszs/article/details/51348248), [NotMasterError, 建议命令行操作](https://www.jianshu.com/p/3a2acd1328a9)
   ```
 	brew services start mongodb  ---启动
 	brew services stop mongodb --停止
@@ -46,7 +46,7 @@ python3 + scrapy + Mongodb
 	// 导出
 	mongoexport -d test -c users --csv -f name,age  -o e:\python\users.csv
 	```
-
+	- [如果遇到副本集问题，请参考：](https://stackoverflow.com/questions/47439781/mongodb-replica-set-member-state-is-other)
 * [redis]()
 	- 分布式爬取: [scrapy-redis](https://github.com/rolando/scrapy-redis)
 * [mysql](https://dev.mysql.com/downloads/file/?id=479845)
