@@ -1,12 +1,17 @@
 # -*- coding: utf-8 -*-
+
+
+import sys
+print (sys.path)
+
 import scrapy
-from scrapy.exceptions import CloseSpider
-from weibo.items import *
 import re
 import io
 import sys
 import json
-from weibo.items import *
+from scrapy.exceptions import CloseSpider
+# from weibo.spi
+from ..items import *
 
 # sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
@@ -42,25 +47,6 @@ class WeiboSpiderSpider(scrapy.Spider):
 
     task_set = set(start_urls) # 待爬取集合
     tasked_set = set() # 已爬取集合
-    # def start_requests(self):
-    #     while len(self.task_set) > 0 :
-    #         _id = self.task_set.pop()
-    #         if _id in self.tasked_set:
-    #             raise CloseSpider(reason="已存在该数据 %s "% (_id) )
-    #         self.tasked_set.add(_id)
-    #         info_url = self.url + _id
-    #         info_item = ProfileItem()
-    #         following_url = info_url + "/follow"
-    #         following_item = FollowingItem()
-    #         following_item["_id"] = _id
-    #         following_item["relationship"] = []
-    #         follower_url = info_url + "/fans"
-    #         follower_item = FollowedItem()
-    #         follower_item["_id"] = _id
-    #         follower_item["relationship"] = []
-    #         yield scrapy.Request(info_url, meta={"item":info_item}, callback=self.account_parse)
-    #         yield scrapy.Request(following_url, meta={"item":following_item}, callback=self.relationship_parse)
-    #         yield scrapy.Request(follower_url, meta={"item":follower_item}, callback=self.relationship_parse)
 
     def start_requests(self):
         for uid in self.start_users:
