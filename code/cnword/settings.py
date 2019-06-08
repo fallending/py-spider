@@ -68,7 +68,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'weibo.pipelines.MongoDBPipeline': 300,
+   'weibo.pipelines.MongoDBPipeline': 1,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -111,5 +111,7 @@ FOLLOWED = "followedTable"
 USER = "userTable"
 RELATION = "relationTable"
 WEIBO = "weiboTable"
+
 # Log out file
 # LOG_FILE = "scrapy.log"
+LOG_LEVEL = "INFO"

@@ -1,3 +1,6 @@
 *.pyc
 *.iml
 code/imgs
+*.png
+*.gif
+*.zip
